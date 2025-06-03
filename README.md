@@ -1,7 +1,7 @@
 # Driving scenarios
 
 
-![overview](./assets/overview.jpg)
+![overview](./assets/pedestrian_crossing.png)
 
 
 
