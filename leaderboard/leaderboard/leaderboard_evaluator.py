@@ -198,14 +198,16 @@ class LeaderboardEvaluator(object):
         """
         Prepares the simulation by getting the client, and setting up the world and traffic manager settings
         """
-        self.carla_path = os.environ["CARLA_ROOT"]
+        #self.carla_path = os.environ["CARLA_ROOT"]
+        
         args.port = find_free_port(args.port)
-        cmd1 = f"{os.path.join(self.carla_path, 'CarlaUE4.sh')} -RenderOffScreen -nosound -carla-rpc-port={args.port} -graphicsadapter={args.gpu_rank}"
+        #cmd1 = f"{os.path.join(self.carla_path, 'CarlaUE4.sh')} -RenderOffScreen -nosound -carla-rpc-port={args.port} -graphicsadapter={args.gpu_rank}"
+        cmd1 = f"singularity exec --nv /projects/MAD3D/Theory_of_mind/carla_sandbox /home/carla/CarlaUE4.sh -carla-port={args.port} -graphicsadapter={args.gpu_rank} exec bash"
         self.server = subprocess.Popen(cmd1, shell=True, preexec_fn=os.setsid)
         print(cmd1, self.server.returncode, flush=True)
         atexit.register(os.killpg, self.server.pid, signal.SIGKILL)
         time.sleep(30)
-            
+           
         attempts = 0
         num_max_restarts = 20
         while attempts < num_max_restarts:
@@ -323,7 +325,9 @@ class LeaderboardEvaluator(object):
         currentDateAndTime = datetime.now()
         currentTime = currentDateAndTime.strftime("%m_%d_%H_%M_%S")
         save_name = f"{route_name}_{town_name}_{scenario_name}_{weather_id}_{currentTime}"
+        #import pdb; pdb.set_trace()
         self.statistics_manager.create_route_data(route_name, scenario_name, weather_id, save_name, town_name, config.index)
+        #self.statistics_manager.create_route_data(route_name,config.index)
 
         print("\033[1m> Loading the world\033[0m", flush=True)
 

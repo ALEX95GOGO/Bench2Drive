@@ -243,6 +243,13 @@ class CarlaDataProvider(object):  # pylint: disable=too-many-public-methods
         @return the random seed.
         """
         return CarlaDataProvider._rng
+    @staticmethod
+    def set_random_seed(seed):
+        """
+        @return the random seed.
+        """
+        CarlaDataProvider._rng = random.RandomState(seed)
+        CarlaDataProvider._random_seed = seed
 
     @staticmethod
     def get_global_route_planner():

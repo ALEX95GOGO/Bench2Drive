@@ -1,0 +1,123 @@
+singularity exec --nv /projects/MAD3D/Theory_of_mind/carla_sandbox /home/carla/CarlaUE4.sh -carla-port=30750 -graphicsadapter=1 exec bash None
+4.26.2-0+++UE4+Release-4.26 522 0
+Disabling core dumps.
+load_world failed , attempts=0
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=1
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=2
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=3
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=4
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=5
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=6
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=7
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=8
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=9
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=10
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=11
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=12
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=13
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=14
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=15
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=16
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=17
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=18
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+load_world failed , attempts=19
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=0
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=1
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=2
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=3
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=4
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=5
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=6
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=7
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=8
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=9
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=10
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=11
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=12
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=13
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=14
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=15
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=16
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=17
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=18
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=19
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=20
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=21
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=22
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=23
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=24
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=25
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=26
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=27
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=28
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=29
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=30
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=31
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=32
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=33
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=34
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=35
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=36
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=37
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=38
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
+traffic_manager init fail, try_time=39
+time-out of 600000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:30750
